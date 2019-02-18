@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thetechnilogics.emaktab.scholars">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/scholars"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/scholars"
+
+        android:supportsRtl="true"
+        android:theme="@style/SplashTheme">
+        <activity android:name=".LoginActivity" android:theme="@style/LoginTheme.Theme"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan"></activity>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
