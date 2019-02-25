@@ -12,11 +12,11 @@
         android:roundIcon="@drawable/scholars"
 
         android:supportsRtl="true"
-        android:theme="@style/SplashTheme">
+       >
         <activity android:name=".LoginActivity" android:theme="@style/LoginTheme.Theme"
-            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan"></activity>
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme" />
-        <activity android:name=".SplashActivity">
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize|adjustPan" android:screenOrientation="portrait"></activity>
+        <activity android:name=".MainActivity" android:theme="@style/AppTheme" android:screenOrientation="portrait" />
+        <activity android:name=".SplashActivity" android:screenOrientation="portrait" android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="pure_white_alpha">#BFFFFFFF</color>
+    <color name="project_blue">#153580</color>
+    <color name="fb_blue">#106FFF</color>
+    <color name="imgTint">#106FFF</color>
+    <color name="cardTint">#FFFFFF</color>
+
+
+
+    <color name="dark_green">#00574B</color>
     <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimaryDark">#106FFF</color>
     <color name="colorAccent">#D81B60</color>
     <color name="blue_shine">#0080FF</color>
     <color name="navy_blue">#0367C2</color>
@@ -55,7 +64,7 @@
     <color name="chart_aqua">#40C1D0</color>
     <color name="chart_aqua2">#7340C1D0</color>
     <color name="grey">#757575</color>
-    <color name="softgrey">#e9e9e9</color>
+    <color name="softgrey">#E9E9E9</color>
     <color name="vSoftGrey">#f9f9f9</color>
     <color name="mediumGrey">#939393</color>
     <color name="normalGrey">#d0d0d0</color>
@@ -66,7 +75,7 @@
     <color name="trans_blue">#8003A7E9</color>
     <!--  #f2f2f2-->
     <!-- Sign UP Colors -->
-    <color name="info_back">#fff7f2</color>
+    <color name="info_back">#FFF7F2</color>
     <color name="cute_blue">#1C56FB</color>
     <color name="red">#e60000</color>
     <color name="red_select">#cc0000</color>

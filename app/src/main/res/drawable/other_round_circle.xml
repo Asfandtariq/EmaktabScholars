@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <item>
-        <shape android:shape="oval" >
-            <solid android:color="@color/grey_light"/>
+    <item android:right="-25dp">
+        <shape xmlns:android="http://schemas.android.com/apk/res/android"
+            android:shape="oval"
+            android:useLevel="false">
+            <solid android:color="@color/imgTint" />
+            <size
+                android:width="60dp"
+                android:height="50dp" />
         </shape>
     </item>
-    <item
-        android:drawable="@drawable/scholars"
-        android:bottom="10dp"
-        android:left="20dp"
-        android:right="20dp"
-        android:top="10dp"/>
-
 </layer-list>
