@@ -24,7 +24,7 @@
     <color name="grey_light">#E5E4E1</color>
     <color name="dark_orange">#ce450e</color>
     <color name="light_white">#939599</color>
-    <color name="PrimaryRed">#EF5A34</color>
+    <color name="PrimaryRed">#FF5722</color>
     <color name="colorSecondary">#87a3c2</color>
     <color name="colorSubSecondary">#dee9ed </color>
     <color name="pure_white">#FFFFFF</color>
@@ -32,7 +32,7 @@
 
     <color name="premium">#ed5c01</color>
     <color name="trans_orange">#80ed5c01</color>
-    <color name="golden">#E8C400</color>
+    <color name="golden">#FFC107</color>
     <color name="platinum">#B505AA</color>
     <color name="tag_250">#8604AF</color>
     <color name="tag_251">#008102</color>
@@ -40,7 +40,7 @@
     <color name="tag_253_258">#d50100</color>
     <color name="tag_254_259">#007BBB</color>
 
-    <color name="PrimaryGreen">#3FB34F</color>
+    <color name="PrimaryGreen">#4CAF50</color>
     <color name="lightGreen">#A63FB34F</color>
     <color name="PrimaryBlue">#23AAE0</color>
     <color name="InfoText">#7E7E7E</color>
@@ -64,13 +64,13 @@
     <color name="chart_aqua">#40C1D0</color>
     <color name="chart_aqua2">#7340C1D0</color>
     <color name="grey">#757575</color>
-    <color name="softgrey">#E9E9E9</color>
+    <color name="softgrey">#B6B3B3</color>
     <color name="vSoftGrey">#f9f9f9</color>
     <color name="mediumGrey">#939393</color>
     <color name="normalGrey">#d0d0d0</color>
     <color name="alpha_white">#33FFFFFF</color>
     <color name="trans_black">#99000000</color>
-    <color name="trans_black_light">#4D000000</color>
+    <color name="trans_black_light">#263238</color>
     <color name="greyNormalAlpha">#26939393</color>
     <color name="trans_blue">#8003A7E9</color>
     <!--  #f2f2f2-->
