@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:squint="http://schemas.android.com/apk/res-auto"
+    tools:context=".AttendenceFragment"
+    android:background="@color/white">
+
+    <include
+        android:id="@+id/toolbar_layout"
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_layout"
+        squint:layout_constraintBottom_toTopOf="@+id/toolbar_layout">
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.constraint.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                squint:layout_constraintEnd_toEndOf="parent"
+                squint:layout_constraintStart_toStartOf="parent"
+                squint:layout_constraintTop_toTopOf="parent">
+
+
+                <com.intrusoft.squint.DiagonalView
+                    android:id="@+id/diagonal"
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+                    android:padding="10dp"
+                    android:scaleType="fitXY"
+                    squint:angle="15"
+                    squint:diagonalDirection="left_to_right"
+                    squint:gravity="bottom"
+                    squint:layout_constraintEnd_toEndOf="parent"
+                    squint:layout_constraintStart_toStartOf="parent"
+                    squint:layout_constraintTop_toTopOf="parent"
+                    squint:solidColor="@color/imgTint"
+
+                    />
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/profile_image"
+                    android:layout_width="85dp"
+                    android:layout_height="85dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginEnd="20dp"
+                    android:background="@null"
+                    android:src="@drawable/scholars"
+                    app:civ_border_color="@color/softgrey"
+                    app:civ_border_width="2dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+            </android.support.constraint.ConstraintLayout>
+
+            <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                squint:layout_constraintEnd_toEndOf="parent"
+                squint:layout_constraintStart_toStartOf="parent"
+                squint:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+                <CalendarView
+                    android:id="@+id/calendar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    squint:layout_constraintEnd_toEndOf="parent"
+                    squint:layout_constraintStart_toStartOf="parent"
+                    squint:layout_constraintTop_toTopOf="parent">
+
+
+                </CalendarView>
+
+
+            </android.support.constraint.ConstraintLayout>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
