@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/mainMenuFragment"
-        android:name="com.thetechnilogics.emaktab.scholars.MainMenuFragment"
+        android:name="com.thetechnilogics.maktaberp.scholars.MainMenuFragment"
         android:label="fragment_main_menu"
         tools:layout="@layout/fragment_main_menu" >
         <action
@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/attendenceFragment"
-        android:name="com.thetechnilogics.emaktab.scholars.AttendenceFragment"
+        android:name="com.thetechnilogics.maktaberp.scholars.AttendenceFragment"
         android:label="fragment_attendence"
         tools:layout="@layout/fragment_attendence" />
 </navigation>

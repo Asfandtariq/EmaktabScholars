@@ -1,4 +1,4 @@
-package com.thetechnilogics.emaktab.scholars;
+package com.thetechnilogics.maktaberp.scholars;
 
 import org.junit.Test;
 
